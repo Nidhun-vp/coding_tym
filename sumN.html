@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+     let limit=Number(prompt());
+     let result=sumN(limit);
+     document.write(result);
+
+     function sumN(n)
+     {
+     
+        if(n<=1)
+        {
+          return n;
+            
+        }
+        else{
+            return n+sumN(n-1);
+        }
+
+
+     }
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
